@@ -16,7 +16,7 @@ export default function ProductList() {
     { field: 'id', headerName: 'ID', width: 90 },
     { field: 'product', headerName: 'Product', width: 200, renderCell: (params) =>{
         return (
-            <div className='productListUser'>
+            <div className='productListItem'>
                 <img className='productListImg' src={params.row.img} alt="" />
                 {params.row.name}
             </div>
