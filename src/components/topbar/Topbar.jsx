@@ -1,12 +1,13 @@
 import { Language, NotificationsNone, Settings } from '@mui/icons-material'
 import './topbar.css'
+import { Link } from 'react-router-dom'
 
 export default function Topbar() {
   return (
     <div className='topbar'>
         <div className="topbarWrapper">
             <div className="topLeft">
-                <span className="logo">Spyderadmin</span>
+                <span className="logo"><Link to='/'>Spyderadmin</Link></span>
             </div>
             <div className="topRight">
                 <div className="topbarIconContainer">
