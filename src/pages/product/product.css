@@ -20,64 +20,91 @@
     font-size: 16px;
 }
 
-.productContainer{
+.productTop{
     display: flex;
-    margin-top: 20px;
 }
 
-.productUpdate{
-    flex:2;
+.productTopLeft,.productTopRight{
+    flex: 1;
+}
+
+.productTopRight{
     padding: 20px;
+    margin: 20px;
     -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.404);
     box-shadow: 0px 0px 11px -1px rgb(0, 0, 0, 0.404);
-    margin-left: 20px;
 }
 
-.productUpdateForm{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+.productInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
 }
 
-.productUpdateTitle{
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.productUpdateItem>label{
-    margin-bottom: 5px;
-    font-size: 14px;
-}
-
-.productUpdateInput{
-    border: none;
-    width: 250px;
-    height: 30px;
-    border-bottom: 1px solid gray;
-    background-color: white;
-}
-.productUpdateInput:focus{
-    outline: none;
-}
-
-.productUpdateItem{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-}
-
-.productUpdateRight{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.productUpdateUpload{
+.productInfoTop{
     display: flex;
     align-items: center;
 }
 
-.productUpdateImg{
+.productInfoBottom{
+    margin-top: 10px;
+}
+
+.productInfoItem{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productInfoValue{
+    font-weight: 300;
+}
+
+.productName{
+    font-weight: 600;
+}
+
+.productBottom{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.404);
+    box-shadow: 0px 0px 11px -1px rgb(0, 0, 0, 0.404);
+}
+
+.productForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.productFormLeft>label{
+    margin-bottom: 10px;
+    color: Gray;
+}
+
+.productFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+.productFormLeft>select{
+    margin-bottom: 10px;
+    background-color: white;
+}
+.productFormLeft>select:focus{
+    outline: none;
+}
+
+.productUploadImg{
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -85,16 +112,26 @@
     margin-right: 20px;
 }
 
-.productUpdateIcon{
-    cursor: pointer;
+.productFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.productUpdateButton{
-    border-radius: 5px;
+.productUpload{
+    display: flex;
+    align-items: center;
+}
+
+.productButton{
     border: none;
     padding: 5px;
-    cursor: pointer;
+    border-radius: 5px;
     background-color: darkblue;
     color: white;
     font-weight: 600;
+    cursor: pointer;
+    width: 100px;
 }
+
+

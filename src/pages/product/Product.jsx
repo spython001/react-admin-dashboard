@@ -18,77 +18,77 @@ export default function product() {
             <div className="productTopLeft">
                 <Chart data={productData} dataKey='Sales' title='Sales Performance'/>
             </div>
-            <div className="productTopRight"></div>
-        </div>
-        <div className="productBottom"></div>
-        
-        <div className="productContainer">
-            <div className="productUpdate">
-                <span className="productUpdateTitle">Edit</span>
-                <form className="productUpdateForm">
-                    <div className="productUpdateLeft">
-                        <div className="productUpdateItem">
-                            <label>productname</label>
-                            <input 
-                              type="text" 
-                              placeholder='annabeck99' 
-                              className='productUpdateInput'
-                            />
-                        </div>
-
-                        <div className="productUpdateItem">
-                            <label>Full Name</label>
-                            <input 
-                              type="text" 
-                              placeholder='Anna Becker' 
-                              className='productUpdateInput'
-                            />
-                        </div>
-
-                        <div className="productUpdateItem">
-                            <label>Email</label>
-                            <input 
-                              type="text" 
-                              placeholder='annabeck99@gmail.com' 
-                              className='productUpdateInput'
-                            />
-                        </div>
-
-                        <div className="productUpdateItem">
-                            <label>Phone</label>
-                            <input 
-                              type="number" 
-                              placeholder='+1 123 456 67' 
-                              className='productUpdateInput'
-                            />
-                        </div>
-
-                        <div className="productUpdateItem">
-                            <label>Address</label>
-                            <input 
-                              type="text" 
-                              placeholder='New York | USA' 
-                              className='productUpdateInput'
-                            />
-                        </div>
-                        
+            <div className="productTopRight">
+                <div className="productInfoTop">
+                    <img 
+                      src="https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" 
+                      alt="" 
+                      className="productInfoImg" 
+                    />
+                    <span className="productName">Apple Airpods</span>
+                </div>
+                
+                <div className="productInfoBottom">
+                    <div className="productInfoItem">
+                        <span className="productInfoKey">id:</span>
+                        <span className="productInfoValue">123</span>
                     </div>
-                    
-                    <div className="productUpdateRight">
-                        <div className="productUpdateUpload">
-                            <img 
-                              src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" 
-                              alt=""
-                              className='productUpdateImg'
-                            />
-                            <label htmlFor="file"> <Publish className='productUpdateIcon'/></label>
-                            <input type="file" id='file' style={{display: 'none'}}/>
-                        </div>
-                        <button className="productUpdateButton">Update</button>
+
+                    <div className="productInfoItem">
+                        <span className="productInfoKey">sales:</span>
+                        <span className="productInfoValue">5123</span>
                     </div>
-                </form>
+
+                    <div className="productInfoItem">
+                        <span className="productInfoKey">active:</span>
+                        <span className="productInfoValue">yes</span>
+                    </div>
+
+                    <div className="productInfoItem">
+                        <span className="productInfoKey">in stock:</span>
+                        <span className="productInfoValue">no</span>
+                    </div>
+                </div>
             </div>
         </div>
+        
+        <div className="productBottom">
+            <form className="productForm">
+                <div className="productFormLeft">
+                    <label>Product Name</label>
+                    <input type="text" placeholder='Apple Airpods'/>
+
+                    <label>In Stock</label>
+                    <select name="inStock" id="inStock">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+
+                    <label>Active</label>
+                    <select name="active" id="active">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                
+                <div className="productFormRight">
+                    <div className="productUpload">
+                        <img 
+                          src="https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" 
+                          alt="" 
+                          className="productUploadImg" 
+                        />
+                        <label htmlFor="file">
+                            <Publish/>
+                        </label>
+                        <input type="file" id='file' style={{display: 'none'}}/>
+                    </div>
+                    <button className="productButton">Update</button>
+                </div>
+            </form>
+        </div>
+        
+        
     </div>
   )
 }
