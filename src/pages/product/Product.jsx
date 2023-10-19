@@ -1,122 +1,122 @@
-import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid, Publish } from '@mui/icons-material'
+
 import './product.css'
 import { Link } from 'react-router-dom'
 
-export default function User() {
+export default function product() {
   return (
-    <div className='user'>
-        <div className="userTitleContainer">
-            <h1 className="userTitle">Edit User</h1>
-            <Link  to='/newUser'>
-              <button className="userAddButton">Create</button>
+    <div className='product'>
+        <div className="productTitleContainer">
+            <h1 className="productTitle">Product</h1>
+            <Link  to='/newProduct'>
+              <button className="productAddButton">Create</button>
             </Link>
         </div>
         
-        <div className="userContainer">
-            <div className="userShow">
-                <div className="userShowTop">
+        <div className="productContainer">
+            <div className="productShow">
+                <div className="productShowTop">
                     <img 
                         src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                         alt="" 
-                        className="userShowImg" 
+                        className="productShowImg" 
                     />
-                    <div className="userShowTopTitle">
-                        <span className="userShowUsername">Anna Becker</span>
-                        <span className="userShowUserTitle">Software Engineering</span>
+                    <div className="productShowTopTitle">
+                        <span className="productShowproductname">Anna Becker</span>
+                        <span className="productShowproductTitle">Software Engineering</span>
                     </div>
                 </div>
-                <div className="userShowBottom">
-                    <span className="userShowTitle">Account Details</span>
-                    <div className="userShowInfo">
-                        <PermIdentity className='userShowIcon'/>
-                        <span className="userShowInfoTitle">annabeck99</span>
+                <div className="productShowBottom">
+                    <span className="productShowTitle">Account Details</span>
+                    <div className="productShowInfo">
+                        <PermIdentity className='productShowIcon'/>
+                        <span className="productShowInfoTitle">annabeck99</span>
                     </div>
                     
-                    <div className="userShowInfo">
-                        <CalendarToday className='userShowIcon'/>
-                        <span className="userShowInfoTitle">10.12.1997</span>
+                    <div className="productShowInfo">
+                        <CalendarToday className='productShowIcon'/>
+                        <span className="productShowInfoTitle">10.12.1997</span>
                     </div>
 
-                    <span className="userShowTitle">Contact Details</span>
-                    <div className="userShowInfo">
-                        <PhoneAndroid className='userShowIcon'/>
-                        <span className="userShowInfoTitle">+1 123 456 67</span>
+                    <span className="productShowTitle">Contact Details</span>
+                    <div className="productShowInfo">
+                        <PhoneAndroid className='productShowIcon'/>
+                        <span className="productShowInfoTitle">+1 123 456 67</span>
                     </div>
 
-                    <div className="userShowInfo">
-                        <MailOutline className='userShowIcon'/>
-                        <span className="userShowInfoTitle">annabeck99@gmail.com</span>
+                    <div className="productShowInfo">
+                        <MailOutline className='productShowIcon'/>
+                        <span className="productShowInfoTitle">annabeck99@gmail.com</span>
                     </div>
 
-                    <div className="userShowInfo">
-                        <LocationSearching className='userShowIcon'/>
-                        <span className="userShowInfoTitle">New York | USA </span>
+                    <div className="productShowInfo">
+                        <LocationSearching className='productShowIcon'/>
+                        <span className="productShowInfoTitle">New York | USA </span>
                     </div>
                 </div>
             </div>
             
-            <div className="userUpdate">
-                <span className="userUpdateTitle">Edit</span>
-                <form className="userUpdateForm">
-                    <div className="userUpdateLeft">
-                        <div className="userUpdateItem">
-                            <label>Username</label>
+            <div className="productUpdate">
+                <span className="productUpdateTitle">Edit</span>
+                <form className="productUpdateForm">
+                    <div className="productUpdateLeft">
+                        <div className="productUpdateItem">
+                            <label>productname</label>
                             <input 
                               type="text" 
                               placeholder='annabeck99' 
-                              className='userUpdateInput'
+                              className='productUpdateInput'
                             />
                         </div>
 
-                        <div className="userUpdateItem">
+                        <div className="productUpdateItem">
                             <label>Full Name</label>
                             <input 
                               type="text" 
                               placeholder='Anna Becker' 
-                              className='userUpdateInput'
+                              className='productUpdateInput'
                             />
                         </div>
 
-                        <div className="userUpdateItem">
+                        <div className="productUpdateItem">
                             <label>Email</label>
                             <input 
                               type="text" 
                               placeholder='annabeck99@gmail.com' 
-                              className='userUpdateInput'
+                              className='productUpdateInput'
                             />
                         </div>
 
-                        <div className="userUpdateItem">
+                        <div className="productUpdateItem">
                             <label>Phone</label>
                             <input 
                               type="number" 
                               placeholder='+1 123 456 67' 
-                              className='userUpdateInput'
+                              className='productUpdateInput'
                             />
                         </div>
 
-                        <div className="userUpdateItem">
+                        <div className="productUpdateItem">
                             <label>Address</label>
                             <input 
                               type="text" 
                               placeholder='New York | USA' 
-                              className='userUpdateInput'
+                              className='productUpdateInput'
                             />
                         </div>
                         
                     </div>
                     
-                    <div className="userUpdateRight">
-                        <div className="userUpdateUpload">
+                    <div className="productUpdateRight">
+                        <div className="productUpdateUpload">
                             <img 
                               src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" 
                               alt=""
-                              className='userUpdateImg'
+                              className='productUpdateImg'
                             />
-                            <label htmlFor="file"> <Publish className='userUpdateIcon'/></label>
+                            <label htmlFor="file"> <Publish className='productUpdateIcon'/></label>
                             <input type="file" id='file' style={{display: 'none'}}/>
                         </div>
-                        <button className="userUpdateButton">Update</button>
+                        <button className="productUpdateButton">Update</button>
                     </div>
                 </form>
             </div>
