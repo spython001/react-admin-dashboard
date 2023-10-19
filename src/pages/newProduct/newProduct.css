@@ -26,6 +26,10 @@
   .addProductItem > select {
     padding: 10px;
   }
+
+  .addProductSpan{
+    margin-top: 10px;
+  }
   
   .addProductButton {
     margin-top: 10px;
