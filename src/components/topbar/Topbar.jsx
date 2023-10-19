@@ -7,7 +7,7 @@ export default function Topbar() {
     <div className='topbar'>
         <div className="topbarWrapper">
             <div className="topLeft">
-                <span className="logo"><Link to='/'>Spyderadmin</Link></span>
+                <span className="logo"><Link to='/' className='topLink'>Spyderadmin</Link></span>
             </div>
             <div className="topRight">
                 <div className="topbarIconContainer">
