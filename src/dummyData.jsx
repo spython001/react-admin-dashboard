@@ -1,46 +1,46 @@
 export const userData = [
     {
-      username: 'Jan',
+      name: 'Jan',
       'Active User': 4000,
     },
     {
-      username: 'Feb',
+      name: 'Feb',
       'Active User': 3000,
     },
     {
-      username: 'Mar',
+      name: 'Mar',
       'Active User': 5000,
     },
     {
-      username: 'Apr',
+      name: 'Apr',
       'Active User': 3000,
     },
     {
-      username: 'Jun',
+      name: 'Jun',
       'Active User': 2000,
     },
     {
-      username: 'Jul',
+      name: 'Jul',
       'Active User': 4000,
     },
     {
-        username: 'Aug',
+        name: 'Aug',
         'Active User': 3000,
       },
       {
-        username: 'Sep',
+        name: 'Sep',
         'Active User': 4000,
       },
       {
-        username: 'Oct',
+        name: 'Oct',
         'Active User': 1000,
       },
       {
-        username: 'Nov',
+        name: 'Nov',
         'Active User': 4000,
       },
       {
-        username: 'Dec',
+        name: 'Dec',
         'Active User': 3000,
       },
   ];
@@ -48,19 +48,18 @@ export const userData = [
 
   export const productData = [
     {
-      username: 'Jan',
+      name: 'Jan',
       'Sales': 4000,
     },
     {
-      username: 'Feb',
+      name: 'Feb',
       'Sales': 3000,
     },
     {
-      username: 'Mar',
+      name: 'Mar',
       'Sales': 5000,
     },
   ];
-
 
 
 

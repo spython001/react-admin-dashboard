@@ -1,6 +1,8 @@
-
 import './product.css'
 import { Link } from 'react-router-dom'
+import Chart from '../../components/chart/Chart'
+import { productData } from '../../dummyData'
+import { Publish } from '@mui/icons-material'
 
 export default function product() {
   return (
@@ -11,50 +13,16 @@ export default function product() {
               <button className="productAddButton">Create</button>
             </Link>
         </div>
+
+        <div className="productTop">
+            <div className="productTopLeft">
+                <Chart data={productData} dataKey='Sales' title='Sales Performance'/>
+            </div>
+            <div className="productTopRight"></div>
+        </div>
+        <div className="productBottom"></div>
         
         <div className="productContainer">
-            <div className="productShow">
-                <div className="productShowTop">
-                    <img 
-                        src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                        alt="" 
-                        className="productShowImg" 
-                    />
-                    <div className="productShowTopTitle">
-                        <span className="productShowproductname">Anna Becker</span>
-                        <span className="productShowproductTitle">Software Engineering</span>
-                    </div>
-                </div>
-                <div className="productShowBottom">
-                    <span className="productShowTitle">Account Details</span>
-                    <div className="productShowInfo">
-                        <PermIdentity className='productShowIcon'/>
-                        <span className="productShowInfoTitle">annabeck99</span>
-                    </div>
-                    
-                    <div className="productShowInfo">
-                        <CalendarToday className='productShowIcon'/>
-                        <span className="productShowInfoTitle">10.12.1997</span>
-                    </div>
-
-                    <span className="productShowTitle">Contact Details</span>
-                    <div className="productShowInfo">
-                        <PhoneAndroid className='productShowIcon'/>
-                        <span className="productShowInfoTitle">+1 123 456 67</span>
-                    </div>
-
-                    <div className="productShowInfo">
-                        <MailOutline className='productShowIcon'/>
-                        <span className="productShowInfoTitle">annabeck99@gmail.com</span>
-                    </div>
-
-                    <div className="productShowInfo">
-                        <LocationSearching className='productShowIcon'/>
-                        <span className="productShowInfoTitle">New York | USA </span>
-                    </div>
-                </div>
-            </div>
-            
             <div className="productUpdate">
                 <span className="productUpdateTitle">Edit</span>
                 <form className="productUpdateForm">
