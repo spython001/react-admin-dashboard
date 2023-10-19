@@ -1,49 +1,107 @@
 export const userData = [
     {
-      name: 'Jan',
+      username: 'Jan',
       'Active User': 4000,
     },
     {
-      name: 'Feb',
+      username: 'Feb',
       'Active User': 3000,
     },
     {
-      name: 'Mar',
+      username: 'Mar',
       'Active User': 5000,
     },
     {
-      name: 'Apr',
+      username: 'Apr',
       'Active User': 3000,
     },
     {
-      name: 'Jun',
+      username: 'Jun',
       'Active User': 2000,
     },
     {
-      name: 'Jul',
+      username: 'Jul',
       'Active User': 4000,
     },
     {
-        name: 'Aug',
+        username: 'Aug',
         'Active User': 3000,
       },
       {
-        name: 'Sep',
+        username: 'Sep',
         'Active User': 4000,
       },
       {
-        name: 'Oct',
+        username: 'Oct',
         'Active User': 1000,
       },
       {
-        name: 'Nov',
+        username: 'Nov',
         'Active User': 4000,
       },
       {
-        name: 'Dec',
+        username: 'Dec',
         'Active User': 3000,
       },
   ];
+
+
+
+  export  const userRows = [
+    { id: 1, 
+      username: 'Jon Snow', 
+      avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+    { id: 2, username: 'Jon Snow', avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+    { id: 3, username: 'Jon Snow', avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+    { id: 4, username: 'Jon Snow', avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+    { id: 5, username: 'Jon Snow', avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+    { id: 6, username: 'Jon Snow', avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+    { id: 7, username: 'Jon Snow', avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+    { id: 8, username: 'Jon Snow', avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+    { id: 9, username: 'Jon Snow', avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+    { id: 10, username: 'Jon Snow', avatar: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      email: "jon@gmail.com",
+      status: "active",
+      price:"$120.00"
+    },
+  ];
+
 
   
   
@@ -51,52 +109,70 @@ export const userData = [
     { id: 1, 
       name: 'Apple Airpods', 
       img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
-    { id: 2, username: 'Apple Airpods', img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+    { id: 2, 
+      name: 'Apple Airpods', 
+      img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
-    { id: 3, username: 'Apple Airpods', img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+    { id: 3, 
+      name: 'Apple Airpods', 
+      img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
-    { id: 4, username: 'Apple Airpods', img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+    { id: 4, 
+      name: 'Apple Airpods', 
+      img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
-    { id: 5, username: 'Apple Airpods', img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+    { id: 5, 
+      name: 'Apple Airpods', 
+      img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
-    { id: 6, username: 'Apple Airpods', img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+    { id: 6, 
+      name: 'Apple Airpods', 
+      img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
-    { id: 7, username: 'Apple Airpods', img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+    { id: 7, 
+      name: 'Apple Airpods', 
+      img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
-    { id: 8, username: 'Apple Airpods', img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+    { id: 8, 
+      name: 'Apple Airpods', 
+      img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
-    { id: 9, username: 'Apple Airpods', img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+    { id: 9, 
+      name: 'Apple Airpods', 
+      img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
-    { id: 10, username: 'Apple Airpods', img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      stock: "123",
+    { id: 10, 
+      name: 'Apple Airpods', 
+      img: 'https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+      stock: 123,
       status: "active",
       price:"$120.00"
     },
